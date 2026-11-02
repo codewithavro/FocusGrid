@@ -1,0 +1,21 @@
+{
+  "FocusGrid": {
+    "main.py": "Application entry point & screen coordinator",
+    "auth.py": "Backend user logic (Login, Signup, Recovery)",
+    "theme.py": "Theme manager (Dark/Light mode & accent colors)",
+    "requirements.txt": "Project dependencies (customtkinter, darkdetect, packaging, pillow)",
+    "assets": {
+      "logo.png": "Application logo / branding image"
+    },
+    "data": {
+      "users.json": "Local storage for user accounts & credentials"
+    },
+    "views": {
+      "__init__.py": "Makes 'views' a python package",
+      "login_view.py": "Login screen UI",
+      "signup_view.py": "Signup / Registration screen UI",
+      "recovery_view.py": "Password recovery screen UI",
+      "dashboard_view.py": "Main dashboard UI (includes Signout & Theme changer)"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+========================================
+FocusGrid - Setup & Execution Instructions
+========================================
+
+1. PREREQUISITES
+   - Ensure Python (version 3.8 or newer) is installed on your computer.
+   - During Python installation on Windows, make sure to check the box: 
+     "Add python.exe to PATH".
+
+2. INSTALL DEPENDENCIES
+   - Open your terminal (Command Prompt, PowerShell, or Terminal).
+   - Navigate into the extracted FocusGrid project folder using the 'cd' command:
+     cd path/to/FocusGrid
+
+   - Run the following command to install the required UI and image libraries:
+     pip install customtkinter pillow
+
+3. RUN THE APPLICATION
+   - Once dependencies are installed and you are inside the project folder, launch the app:
+     python main.py
+
+========================================
+NOTES & FILE STRUCTURE:
+- The 'data/' directory automatically manages local user accounts (users.json) and tasks (tasks.json).
+- The 'assets/' directory holds the required logo image file. Ensure it remains intact.
+========================================
